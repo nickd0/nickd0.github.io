@@ -32,6 +32,10 @@ theme: nickd0-theme
 plugins:
   - jekyll-feed
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 
   
 
