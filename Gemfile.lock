@@ -266,6 +266,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed
+  jekyll-remote-theme
   jekyll-seo
   kramdown-parser-gfm
   nickd0-theme (~> 0.1.0)

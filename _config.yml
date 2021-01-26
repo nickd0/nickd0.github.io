@@ -27,9 +27,12 @@ resume_vs: v5
 
 # Build settings
 markdown: kramdown
-theme: nickd0-theme
+# theme: nickd0-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: nickd0/nickd0-theme@main
 
 sass:
   sass_dir: _sass
