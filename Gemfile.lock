@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nickd0/nickd0-theme
-  revision: 716fc1c090da99a7a68ff2edb3f4ba3bce7f536c
+  revision: cfcb7407f9c3648d0080de3244f16a10c531370f
   ref: main
   specs:
     nickd0-theme (0.1.0)
