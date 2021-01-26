@@ -1,5 +1,6 @@
-PATH
-  remote: .
+GIT
+  remote: https://github.com/nickd0/nickd0-theme
+  revision: 473ad7d40c850038c386b98b3c389d2dc06765b3
   specs:
     nickd0-theme (0.1.0)
       jekyll (~> 3.9)
