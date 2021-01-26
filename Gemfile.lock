@@ -1,12 +1,3 @@
-GIT
-  remote: https://github.com/nickd0/nickd0-theme
-  revision: cfcb7407f9c3648d0080de3244f16a10c531370f
-  ref: main
-  specs:
-    nickd0-theme (0.1.0)
-      jekyll (~> 3.9)
-      jekyll-seo-tag (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -221,6 +212,9 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.3)
     multipart-post (2.1.1)
+    nickd0-theme (0.1.0)
+      jekyll (~> 3.9)
+      jekyll-seo-tag (~> 2.0)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.20.0)
@@ -274,7 +268,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo
   kramdown-parser-gfm
-  nickd0-theme!
+  nickd0-theme (~> 0.1.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
