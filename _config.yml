@@ -33,12 +33,25 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: nickd0/nickd0-theme@main
+# theme: nickd0-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
+permalink: /posts/:title
 
+# defaults:
+#   -
+#     scope:
+#       type: posts
+#       path: _posts
+#     values:
+#       is_post: true
+#       layout: post
+#       permalink: /blog/:title
+
+include: [_pages]
   
 
 # Exclude from processing.

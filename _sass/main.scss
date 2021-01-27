@@ -121,7 +121,6 @@ img, video {
 /* Pre and Code */
 
 pre {
-    background-color: $color-bg-alt;
     display: block;
     padding: 1em;
     overflow-x: auto;
@@ -132,7 +131,6 @@ pre {
 code {
     font-size: 0.9em;
     padding: 0 0.5em;
-    background-color: $color-bg-alt;
     white-space: pre-wrap;
 }
 

@@ -35,5 +35,5 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
-gem 'nickd0-theme', '~> 0.1.0'
+# gem 'nickd0-theme', '~> 0.1.0'
 # gem "nickd0-theme", path: "../nickd0-theme"
