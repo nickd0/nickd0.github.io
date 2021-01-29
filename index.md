@@ -5,7 +5,10 @@ layout: default
 
 Welcome! Here you'll find things about me, Nick Donald. I'll try to also occasionally write about things I'm working on or things I think are interesting.
 
-[Resume]({{ site.img_cdn | append: "/docs/nickdonald_resume_2021_" | append: site.resume_vs | append: ".pdf" }}) // [Posts](/posts)
+[Resume]({{ site.img_cdn | append: "/docs/nickdonald_resume_2021_" | append: site.resume_vs | append: ".pdf" }})
+{% assign resume_href = site.img_cdn | append: "/docs/nickdonald_resume_2021_" | append: site.resume_vs | append: ".pdf" %}
+<a href="{{ resume_href }}" onclick="captureOutboundLink('{{ resume_href }}', 'download_resume'); return false;">Resume</a>
+// [Posts](/posts)
 
 <img id="carousel-img" src="" />
 <em id="carousel-cap"></em>
