@@ -41,6 +41,8 @@ sass:
 
 permalink: /posts/:title
 
+google_analytics: G-4307PDKV6H
+
 # defaults:
 #   -
 #     scope:
