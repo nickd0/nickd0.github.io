@@ -5,7 +5,7 @@ layout: default
 
 Welcome! Here you'll find things about me, Nick Donald. I'll try to also occasionally write about things I'm working on or things I think are interesting.
 
-{% assign resume_href = site.img_cdn | append: "/docs/nickdonald_resume_2021_" | append: site.resume_vs | append: ".pdf" %}
+{% assign resume_href = site.img_cdn | append: "/docs/nickdonald_resume_2023.pdf" %}
 <a href="{{ resume_href }}">Resume</a>
 
 Current projects
